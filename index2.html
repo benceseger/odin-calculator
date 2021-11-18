@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Calculator v2</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style2.css">
+        
+    </head>
+    <body>
+        <div class="calculator">
+            <div id="calculatorDisplay" class="calculator-display">
+                <!-- 2 screens or 1 -->
+                <div id="calculationScreen" class="operation-screen">
+                    
+                </div>
+                
+                <div id="operationScreen" class="result-screen">
+                    
+                </div>
+            </div>
+            <div class="button-grid">
+                <button type="button" id="add" class="operator" data-operator>+</button>
+                <button type="button" id="subtraction" class="operator" data-operator>-</button>
+                <button type="button" id="multiply" class="operator" data-operator>*</button>
+                <button type="button" id="divide" class="operator" data-operator>÷</button>
+
+                <button type="button" id="noSeven" data-number>7</button>
+                <button type="button" id="noEight" data-number>8</button>
+                <button type="button" id="noNine" data-number>9</button>
+
+                <button type="button" id="noFour" data-number>4</button>
+                <button type="button" id="noFive" data-number>5</button>
+                <button type="button" id="noSix" data-number>6</button>
+
+                <button type="button" id="noOne" data-number>1</button>
+                <button type="button" id="noTwo" data-number>2</button>
+                <button type="button" id="noThree" data-number>3</button>
+
+                <button type="button" id="noOne" data-number>0</button>
+                <button type="button" id="decimal" class="decimal" value=".">.</button>
+                <button type="button" id="allClear" class="all-clear" value="all-clear">AC</button>
+
+                <button type="button" id="equalButton" class="equal-sign">=</button>
+
+            </div>
+        </div>
+        <script src="script.js" defer></script>
+    </body>
+</html>
